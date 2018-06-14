@@ -4,12 +4,12 @@ public class Nodes : MonoBehaviour {
 
     private Color startColor;
     public Color hoverColor;
-    private Renderer rend;
+    private SpriteRenderer rend;
 
 	
 	void Start ()
     {
-        rend = GetComponent<Renderer>();
+        rend = GetComponent<SpriteRenderer>();
         startColor = rend.material.color;
 	}
 
